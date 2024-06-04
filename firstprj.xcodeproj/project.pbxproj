@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B8D30CF2C0EB45200522320 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D30CE2C0EB45200522320 /* TestView.swift */; };
+		2B8D30CF2C0EB45200522320 /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D30CE2C0EB45200522320 /* StatePropertyView.swift */; };
 		2B8D30D12C0ECB8D00522320 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D30D02C0ECB8D00522320 /* VStackView.swift */; };
 		2BCE3BFE2C0D958D001CAE81 /* firstprjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE3BFD2C0D958D001CAE81 /* firstprjApp.swift */; };
 		2BCE3C002C0D958D001CAE81 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE3BFF2C0D958D001CAE81 /* Persistence.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B8D30CE2C0EB45200522320 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		2B8D30CE2C0EB45200522320 /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
 		2B8D30D02C0ECB8D00522320 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		2BCE3BFA2C0D958D001CAE81 /* firstprj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstprj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCE3BFD2C0D958D001CAE81 /* firstprjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstprjApp.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 				2BCE3BFD2C0D958D001CAE81 /* firstprjApp.swift */,
 				2BCE3BFF2C0D958D001CAE81 /* Persistence.swift */,
 				2B8D30D02C0ECB8D00522320 /* VStackView.swift */,
-				2B8D30CE2C0EB45200522320 /* TestView.swift */,
+				2B8D30CE2C0EB45200522320 /* StatePropertyView.swift */,
 				2BCE3C062C0D958D001CAE81 /* Assets.xcassets */,
 				2BCE3C082C0D958D001CAE81 /* firstprj.entitlements */,
 				2BCE3C012C0D958D001CAE81 /* firstprj.xcdatamodeld */,
@@ -150,7 +150,7 @@
 			files = (
 				2B8D30D12C0ECB8D00522320 /* VStackView.swift in Sources */,
 				2BCE3BFE2C0D958D001CAE81 /* firstprjApp.swift in Sources */,
-				2B8D30CF2C0EB45200522320 /* TestView.swift in Sources */,
+				2B8D30CF2C0EB45200522320 /* StatePropertyView.swift in Sources */,
 				2BCE3C002C0D958D001CAE81 /* Persistence.swift in Sources */,
 				2BCE3C032C0D958D001CAE81 /* firstprj.xcdatamodeld in Sources */,
 			);
