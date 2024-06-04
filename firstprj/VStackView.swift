@@ -6,12 +6,9 @@
 //
 
 import SwiftUI
-import CoreData
 
-struct ContentView: View {
-
-
-
+struct VStackView: View {
+ 
     var body: some View {
         // VStack은 기본 alignment가 center이고
         // leading을 택하면 다른 Stack 들 중 맨 앞에 맞추어 짐
@@ -49,5 +46,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    VStackView()
 }
