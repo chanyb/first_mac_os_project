@@ -13,7 +13,7 @@ struct firstprjApp: App { // App은 Swift의 루트객체
 
     var body: some Scene {
         WindowGroup { // 앱의 UI를 나타내는 Scene을 그룹화 한다.
-            ContentView() // 앱의 기본 View
+            TestView() // 앱의 기본 View
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
