@@ -31,6 +31,7 @@ struct ListView : View {
                     .fill(item.color)
                     .frame(width: 20, height: 20)
                 Text(item.name)
+                Text(NSLocalizedString(item.name, comment: "1"))
             }
         }.navigationBarTitle("Fruits")
         .navigationBarItems(trailing: EditButton())
@@ -40,7 +41,7 @@ struct ListView : View {
                 _ = fruits.map { fruit in
                     if fruit.id == uuid {
                         let log = OSLog(subsystem: "kr.co.kworks.firstprj", category: "test")
-                        os_log(.default, log: log, "fruit: \(fruit.name), color: \(fruit.color)")
+                        os_log(.default, log: log, "fruit: \(NSLocalizedString(fruit.name, comment: "1")), color: \(fruit.color)")
                     }
                     return fruit
                 }

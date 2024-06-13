@@ -1,0 +1,75 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add" : {
+
+    },
+    "apple" : {
+      "comment" : "2",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "apple"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사과"
+          }
+        }
+      }
+    },
+    "banana" : {
+      "comment" : "1",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banana"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바나나"
+          }
+        }
+      }
+    },
+    "Counter: %lld" : {
+
+    },
+    "Detail" : {
+
+    },
+    "Fruits" : {
+
+    },
+    "hello, world!" : {
+
+    },
+    "Increment" : {
+
+    },
+    "Switch is OFF" : {
+
+    },
+    "Switch is ON" : {
+
+    },
+    "Tap Me" : {
+
+    },
+    "This is the Detail View %@" : {
+
+    },
+    "Welcome to SwiftUI %lld" : {
+
+    }
+  },
+  "version" : "1.0"
+}
