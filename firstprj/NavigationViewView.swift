@@ -17,10 +17,11 @@ struct NavigationViewView: View {
             VStack {
                 List(fruits, rowContent: fruitView)
 
+                #if os(iOS)
                 Button(action: add) {
                     Text("Add")
                 }.toolbar{ EditButton() }
-                
+                #endif
             
                 Text("Selected: \(selection)")
             }
