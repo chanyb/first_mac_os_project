@@ -10,6 +10,7 @@
 		2B87E8412C17CF3E00ACE49A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E8402C17CF3E00ACE49A /* ListView.swift */; };
 		2B87E8432C17F29800ACE49A /* NavigationViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E8422C17F29800ACE49A /* NavigationViewView.swift */; };
 		2B87E8452C1ACB4A00ACE49A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2B87E8442C1ACB4A00ACE49A /* Localizable.xcstrings */; };
+		2B87E8472C1C093C00ACE49A /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E8462C1C093C00ACE49A /* AnimationView.swift */; };
 		2B8D30CF2C0EB45200522320 /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D30CE2C0EB45200522320 /* StatePropertyView.swift */; };
 		2B8D30D12C0ECB8D00522320 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D30D02C0ECB8D00522320 /* VStackView.swift */; };
 		2B8D30D32C0EF85000522320 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D30D22C0EF85000522320 /* BindingView.swift */; };
@@ -20,12 +21,15 @@
 		2BCE3C032C0D958D001CAE81 /* firstprj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE3C012C0D958D001CAE81 /* firstprj.xcdatamodeld */; };
 		2BCE3C072C0D958D001CAE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCE3C062C0D958D001CAE81 /* Assets.xcassets */; };
 		2BCE3C0B2C0D958D001CAE81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCE3C0A2C0D958D001CAE81 /* Preview Assets.xcassets */; };
+		2BF864722C21572E00A1F086 /* FabulaItemsProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 2BF864712C21572E00A1F086 /* FabulaItemsProvider */; };
+		2BF864742C21582800A1F086 /* UsePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF864732C21582800A1F086 /* UsePackage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B87E8402C17CF3E00ACE49A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		2B87E8422C17F29800ACE49A /* NavigationViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewView.swift; sourceTree = "<group>"; };
 		2B87E8442C1ACB4A00ACE49A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2B87E8462C1C093C00ACE49A /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		2B8D30CE2C0EB45200522320 /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
 		2B8D30D02C0ECB8D00522320 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		2B8D30D22C0EF85000522320 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		2BCE3C062C0D958D001CAE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BCE3C082C0D958D001CAE81 /* firstprj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstprj.entitlements; sourceTree = "<group>"; };
 		2BCE3C0A2C0D958D001CAE81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BF864732C21582800A1F086 /* UsePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsePackage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF864722C21572E00A1F086 /* FabulaItemsProvider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +90,8 @@
 				2B8D30D42C16876000522320 /* ObservableObjectObject.swift */,
 				2B8D30D62C1688CD00522320 /* ViewModelView.swift */,
 				2B87E8422C17F29800ACE49A /* NavigationViewView.swift */,
+				2B87E8462C1C093C00ACE49A /* AnimationView.swift */,
+				2BF864732C21582800A1F086 /* UsePackage.swift */,
 			);
 			path = firstprj;
 			sourceTree = "<group>";
@@ -112,6 +120,9 @@
 			dependencies = (
 			);
 			name = firstprj;
+			packageProductDependencies = (
+				2BF864712C21572E00A1F086 /* FabulaItemsProvider */,
+			);
 			productName = firstprj;
 			productReference = 2BCE3BFA2C0D958D001CAE81 /* firstprj.app */;
 			productType = "com.apple.product-type.application";
@@ -141,6 +152,9 @@
 				ko,
 			);
 			mainGroup = 2BCE3BF12C0D958D001CAE81;
+			packageReferences = (
+				2BF864702C21572E00A1F086 /* XCRemoteSwiftPackageReference "FabulaItemsProvider" */,
+			);
 			productRefGroup = 2BCE3BFB2C0D958D001CAE81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,10 +186,12 @@
 				2B8D30D12C0ECB8D00522320 /* VStackView.swift in Sources */,
 				2B87E8432C17F29800ACE49A /* NavigationViewView.swift in Sources */,
 				2BCE3BFE2C0D958D001CAE81 /* firstprjApp.swift in Sources */,
+				2BF864742C21582800A1F086 /* UsePackage.swift in Sources */,
 				2B8D30D32C0EF85000522320 /* BindingView.swift in Sources */,
 				2B8D30CF2C0EB45200522320 /* StatePropertyView.swift in Sources */,
 				2B8D30D72C1688CD00522320 /* ViewModelView.swift in Sources */,
 				2BCE3C002C0D958D001CAE81 /* Persistence.swift in Sources */,
+				2B87E8472C1C093C00ACE49A /* AnimationView.swift in Sources */,
 				2BCE3C032C0D958D001CAE81 /* firstprj.xcdatamodeld in Sources */,
 				2B87E8412C17CF3E00ACE49A /* ListView.swift in Sources */,
 			);
@@ -396,6 +412,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BF864702C21572E00A1F086 /* XCRemoteSwiftPackageReference "FabulaItemsProvider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chanyb/FabulaItemsProvider";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BF864712C21572E00A1F086 /* FabulaItemsProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BF864702C21572E00A1F086 /* XCRemoteSwiftPackageReference "FabulaItemsProvider" */;
+			productName = FabulaItemsProvider;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2BCE3C012C0D958D001CAE81 /* firstprj.xcdatamodeld */ = {

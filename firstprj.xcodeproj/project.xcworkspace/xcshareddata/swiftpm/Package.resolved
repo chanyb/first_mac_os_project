@@ -1,0 +1,141 @@
+{
+  "originHash" : "ae3234e7321ed63525f127cf11684a1f93ddf12e0bf3a4c283a14b7089ec8d99",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "animatetext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AnimateText.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0f478496bb3d8931ae3316c140dfef786434d68d"
+      }
+    },
+    {
+      "identity" : "axiscontribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisContribution.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "219ca810cd7ea40fea2813bc313c2239133c61f3"
+      }
+    },
+    {
+      "identity" : "axisratingbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisRatingBar.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "edc48620a2cd9f6b3cec0642ebcac4a6cf6d0e56"
+      }
+    },
+    {
+      "identity" : "axissegmentedview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisSegmentedView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "44e42f5766fe3fd1dda6b1a3f2047127f9e51b2e"
+      }
+    },
+    {
+      "identity" : "axissheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisSheet.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e577c37a7ee184f7018c85f0bf35baccbaa4c950"
+      }
+    },
+    {
+      "identity" : "axistabview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisTabView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a96f3ad288a733f1c774ea57bad8be87b45aa56e"
+      }
+    },
+    {
+      "identity" : "axistooltip",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisTooltip.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2c83b754b4e257a86a03a29f199b15a48410be48"
+      }
+    },
+    {
+      "identity" : "fabulaitemsprovider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chanyb/FabulaItemsProvider",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b7223a0acd35a1a04441d6344a2a70a251270dc0"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1d29eccc24cc8b75bff9f6804155112c0ffc9605"
+      }
+    },
+    {
+      "identity" : "lottieui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/LottieUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0cd5b54a1c8467b19c01f56395aec179087b62e2"
+      }
+    },
+    {
+      "identity" : "scroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/Scroller.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a825313309c2fc6964b50edc83867370ad08bb47"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "b8523c1642f3c142b06dd98443ea7c48343a4dfd",
+        "version" : "5.19.3"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "53573d6dd017e354c0e7d8f1c86b77ef1383c996",
+        "version" : "2.2.7"
+      }
+    },
+    {
+      "identity" : "unsplashprovider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/UnsplashProvider.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "11e624bcc2d8c402fa25695fc34699419c3283d1"
+      }
+    }
+  ],
+  "version" : 3
+}
